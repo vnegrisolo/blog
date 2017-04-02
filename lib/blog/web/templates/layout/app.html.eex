@@ -7,12 +7,12 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Code4Fun</title>
+    <title>Code4Share</title>
     <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
   </head>
 
   <body>
-    <header>Welcome to Code4Fun Blog</header>
+    <header>Welcome to Code4Share Blog</header>
 
     <div class="container">
       <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>

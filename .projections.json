@@ -84,6 +84,16 @@
     ],
   },
 
+  "test/features": { "type": "features" },
+  "test/features/*_test.exs": {
+    "type": "features",
+    "template":[
+      "defmodule {project|camelcase|capitalize|basename}.Features.{camelcase|capitalize|dot}Test do",
+      "  use {project|camelcase|capitalize|basename}.FeatureCase, async: true",
+      "end",
+    ],
+  },
+
   "lib": { "type": "lib" },
   "lib/*.ex": {
     "type": "lib",
