@@ -10,6 +10,6 @@ defmodule Blog.Features.HomeTest do
             |> find(@title)
             |> Element.text
 
-    assert title == "Welcome to Code4Share Blog"
+    assert title == "Welcome to Code4Share"
   end
 end

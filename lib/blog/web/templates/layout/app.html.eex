@@ -12,7 +12,10 @@
   </head>
 
   <body>
-    <header>Welcome to Code4Share Blog</header>
+    <header>
+      <img src="/images/logo.png" alt="Code4Share" class="pull-left">
+      Welcome to Code4Share
+    </header>
 
     <div class="container">
       <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
